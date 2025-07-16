@@ -1,0 +1,139 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.img1{
+  background-color: yellow;
+}
+
+.img2{
+  background-color: rgb(255, 0, 174);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  background-color: #393E46;
+  color: #4ECCA3;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+a{
+  color: #4ECCA3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.heading {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 0px;
+}
+
+.btn {
+  background-color: #4ECCA3;
+  color: #393E46;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 300px;
+  height: 50px;
+}
+
+.score{
+  color: #ffffff;
+  font-size: 4rem;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  margin: 0px;
+  padding: 0px
+}
+
+.btn:hover {
+  background-color: #cff740;
+  color: #000000;
+}
+
+
+#player{
+  color: #cff740;
+}
+
+#player-score{
+  color:#cff740
+}
+
+#reset {
+  background-color: #ff3d00;
+  color: #ffffff;
+  padding: 0px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 300px;
+  height: 50px;
+}
