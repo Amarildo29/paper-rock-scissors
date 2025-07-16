@@ -14,13 +14,13 @@ var maxScore = 5;
 function checkForGameOver() {
     if (userScore === maxScore) {
         document.querySelector("h1").textContent = "🏆" + playerName+ "🏆";
-        document.querySelector("h1").setAttribute("style", "font-size: 8rem; color: gold;");
+        document.querySelector("h1").setAttribute("style", "color: gold;");
         btnPaper.disabled = btnRock.disabled = btnScissors.disabled = true;
     
     
     } else if (computerScore === maxScore) {
         document.querySelector("h1").textContent = "🏆 Computer 🏆";
-        document.querySelector("h1").setAttribute("style", "font-size: 8rem; color: gold;");
+        document.querySelector("h1").setAttribute("style", "color: gold;");
         btnPaper.disabled = btnRock.disabled = btnScissors.disabled = true;
         
     }else{
